@@ -1,1 +1,70 @@
-# Make your shoe class here!
+# shoe.rb
+# Add your shoe class here
+class shoe
+ attr_accessor :brand, :color, :material
+ attr_accessor :size
+  
+  def initialize ()
+    @title = title
+    
+  end
+ 
+ def turn_page
+puts "Flipping the page...wow, you read fast!"
+end
+
+end
+
+
+
+
+
+
+
+
+
+
+
+# shoe.rb
+ 
+class Shoe
+  def initialize(nike)
+    @brand = nike
+  end
+ 
+  def brand
+    @brand
+  end
+ 
+  def color=(red)
+    @color = red
+  end
+ 
+  def color
+    @color
+  end
+  
+  def size= size
+    @size = 9.5
+  end
+ 
+  def size
+    @size
+  end
+ 
+  def material=(suede)
+    @material = suede
+  end
+ 
+  def material
+    @material
+  end
+ 
+  def condition=(tattered)
+    @condition = tattered
+  end
+ 
+  def condition
+    @condition
+  end
+end

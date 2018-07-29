@@ -1,2 +1,16 @@
 # book.rb
-# Add you Book class here
+# Add your book class here
+class Book
+ attr_accessor :author, :page_count, :genre
+ attr_accessor :title
+  
+  def initialize(brand)
+    @brand = brand
+    
+  end
+ 
+ def turn_page
+puts "Flipping the page...wow, you read fast!"
+end
+
+end
