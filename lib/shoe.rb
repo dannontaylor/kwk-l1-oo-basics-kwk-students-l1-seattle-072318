@@ -9,7 +9,7 @@ class shoe
     
   end
  
- def turn_page
+ def shoe_cobble
 puts "your shoe is as good as new"
 end
 
