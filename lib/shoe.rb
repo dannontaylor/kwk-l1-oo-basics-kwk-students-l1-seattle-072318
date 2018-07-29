@@ -1,11 +1,11 @@
 # shoe.rb
 # Add your shoe class here
 class shoe
- attr_accessor :brand, :color, :material
- attr_accessor :size
+ attr_accessor :size, :color, :material
+ attr_accessor :brand
   
-  def initialize ()
-    @title = title
+  def initialize (brand)
+    @brand = brand
     
   end
  
