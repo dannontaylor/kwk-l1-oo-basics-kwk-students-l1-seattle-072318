@@ -9,7 +9,7 @@ class Book
     
   end
  
- def shoe.cobble
+ def turn_page
 puts "Flipping the page...wow, you read fast!"
 end
 
